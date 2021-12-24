@@ -1,0 +1,21 @@
+{
+  "name": "PolskaCyr",
+  "description": "рендеринг польского текста в кириллице",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icons/polska.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/polska.png",
+    "default_title": "Полска Кириллица"
+  },
+  "manifest_version": 2
+}
+
